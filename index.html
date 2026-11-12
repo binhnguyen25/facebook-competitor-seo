@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Phân tích đối thủ Facebook &amp; Chiến lược SEO</title>
+<style>
+  :root { --vang:#f2b544; --nen:#111318; --the:#1b1f27; --chu:#f3f4f6; --mo:#9aa3af; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--nen); color:var(--chu); font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  header { padding:28px 20px 8px; max-width:1000px; margin:0 auto; }
+  h1 { font-size:26px; margin:0 0 6px; }
+  h1 span { color:var(--vang); }
+  p.mo { color:var(--mo); margin:4px 0; }
+  main { max-width:1000px; margin:0 auto; padding:12px 20px 40px; }
+  .card { background:var(--the); border:1px solid #2a2f3a; border-radius:12px; padding:18px; margin:14px 0; }
+  h2 { font-size:19px; margin:0 0 10px; }
+  table { width:100%; border-collapse:collapse; font-size:14px; }
+  th, td { text-align:left; padding:9px 8px; border-bottom:1px solid #2a2f3a; vertical-align:top; }
+  th { color:var(--vang); }
+  a { color:#7cc4ff; }
+  .bar-row { display:flex; align-items:center; gap:10px; margin:8px 0; font-size:14px; }
+  .bar-row .ten { width:170px; }
+  .bar { height:16px; background:var(--vang); border-radius:8px; }
+  .bar-row .so { color:var(--mo); }
+  input[type=text] { width:100%; padding:10px; border-radius:8px; border:1px solid #3a4150; background:#0d0f13; color:var(--chu); font-size:14px; }
+  button { background:var(--vang); color:#111; border:0; border-radius:8px; padding:10px 18px; font-weight:700; cursor:pointer; margin-top:10px; }
+  button:hover { opacity:.9; }
+  code { background:#0d0f13; padding:2px 6px; border-radius:6px; }
+  .luu-y { color:var(--mo); font-size:13px; }
+  footer { text-align:center; color:var(--mo); font-size:13px; padding:20px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Phân tích đối thủ <span>Facebook</span> &amp; Chiến lược SEO</h1>
+  <p class="mo">Công cụ cho trang tin tức: so sánh trang của bạn với các trang tin tức đối thủ, rồi tạo chiến lược SEO &amp; nội dung. Chỉ dùng dữ liệu công khai.</p>
+  <p class="mo" id="ngay-bao-cao"></p>
+</header>
+<main>
+  <section class="card">
+    <h2>1. So sánh nhanh</h2>
+    <div id="bang-so-sanh"><p class="mo">Đang tải report.json…</p></div>
+  </section>
+  <section class="card">
+    <h2>2. Người theo dõi của đối thủ</h2>
+    <div id="bieu-do"></div>
+  </section>
+  <section class="card">
+    <h2>3. Bài đăng tốt nhất của từng đối thủ</h2>
+    <div id="bai-tot-nhat"><p class="mo">Đang tải…</p></div>
+  </section>
+  <section class="card">
+    <h2>4. Thêm đối thủ mới</h2>
+    <p>Dán link trang Facebook đối thủ vào đây, rồi làm theo 2 bước:</p>
+    <input type="text" id="link-doi-thu" placeholder="https://www.facebook.com/ten-trang" />
+    <button id="btn-them">Thêm vào danh sách phân tích</button>
+    <p id="ket-qua-them" class="mo"></p>
+    <p class="luu-y">Lưu ý: Facebook chặn đọc trang đối thủ qua công cụ tự động (lỗi 403). Cách lấy số liệu thật hiện nay: mở trang đối thủ, ghi lại số người theo dõi và tương tác (thích / bình luận) của 3–5 bài gần nhất vào file <code>du_lieu_thu_cong.json</code>, rồi chạy <code>python3 analyzer.py</code>. Xem chi tiết trong README của repo.</p>
+  </section>
+  <section class="card">
+    <h2>5. Chiến lược SEO đã tạo</h2>
+    <p>File <code>chien-luoc-seo.md</code> trong repo (xem trên GitHub) gồm: đối thủ đang làm gì, điểm khác biệt của bạn, từ khóa nên tập trung, khung giờ &amp; định dạng, kế hoạch 30 ngày.</p>
+    <p><a href="chien-luoc-seo.md" target="_blank" rel="noopener">Mở chiến lược SEO (chien-luoc-seo.md)</a> · <a href="report.json" target="_blank" rel="noopener">Xem dữ liệu thô (report.json)</a></p>
+  </section>
+</main>
+<footer>facebook-competitor-seo — chỉ dùng dữ liệu công khai, không mật khẩu, không đăng bài.</footer>
+<script src="app.js"></script>
+</body>
+</html>
