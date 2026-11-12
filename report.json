@@ -1,0 +1,106 @@
+{
+  "ngay_tao": "2026-11-12T03:57:59.265666+00:00",
+  "trang_cua_ban": {
+    "ten": "Nguyen Binh Van (N News TV)",
+    "url": "https://www.facebook.com/nguyen.binh.van.363133",
+    "nguoi_theo_doi": 13000,
+    "ghi_chu": "Trang tin tức của bạn: bản tin Reels video Vox 7h / 12h / 19h hằng ngày, 3 tin trong nước + 2 tin nước ngoài + 1 âm nhạc + 1 thể thao."
+  },
+  "doi_thu": [
+    {
+      "ten": "Tuổi Trẻ",
+      "url": "https://www.facebook.com/baotuoitre",
+      "handle": "baotuoitre",
+      "nguoi_theo_doi": 3100000,
+      "so_bai_mau": 3,
+      "luot_thich_tb": 710.0,
+      "binh_luan_tb": 12.3,
+      "ty_le_tuong_tac_tb": 0.023,
+      "bai_tot_nhat": {
+        "url": "https://www.facebook.com/baotuoitre/posts/pfbid032z6kc77hUG3j5ca2ZgzbWzZYh3BXbAL7DjpRQyV9u3q2hvuGp94q4eKmJuFVMiYzl",
+        "loai": "image",
+        "thoi_gian": "2026-11-10T05:46:56Z",
+        "luot_thich": 840,
+        "binh_luan": 1,
+        "noi_dung": "Tuổi Trẻ đăng ảnh hiện trường vụ tai nạn giao thông ban đêm"
+      },
+      "gio_dang_pho_bien": [
+        "12:00 (giờ VN)",
+        "06:00 (giờ VN)",
+        "09:00 (giờ VN)"
+      ],
+      "chu_de_chinh": [
+        "tai nạn / giao thông",
+        "chưa phân loại được"
+      ],
+      "nguon_du_lieu": [
+        "facebook-cli: khong_doc_duoc",
+        "nhập tay từ nguồn công khai (Tìm kiếm bài đăng công khai trên Facebook ngày 12/11/2026 (social search); số người theo dõi 3,1 triệu là số hiển thị trên hồ sơ trang tại thời điểm tìm kiếm.)"
+      ],
+      "trang_thai": "co_du_lieu",
+      "ghi_chu": "Facebook chặn (403 Profile Not Accessible): trang này chỉ đọc được với người xem là bạn bè hoặc người quản lý trang."
+    },
+    {
+      "ten": "Dân trí",
+      "url": "https://www.facebook.com/baodantridientu",
+      "handle": "baodantridientu",
+      "nguoi_theo_doi": 2300000,
+      "so_bai_mau": 3,
+      "luot_thich_tb": 338.3,
+      "binh_luan_tb": 11.0,
+      "ty_le_tuong_tac_tb": 0.015,
+      "bai_tot_nhat": {
+        "url": "https://www.facebook.com/baodantridientu/posts/pfbid02QQ9b1yXzmcp5xnR96AGj2mqPDYHtaoxmTD7KgomQYLicJ44Vzxzd7MHCxN6NFisul",
+        "loai": "image",
+        "thoi_gian": "2026-11-11T11:36:59Z",
+        "luot_thich": 730,
+        "binh_luan": 25,
+        "noi_dung": "Dân trí đăng ảnh tin tức buổi trưa"
+      },
+      "gio_dang_pho_bien": [
+        "11:00 (giờ VN)",
+        "18:00 (giờ VN)",
+        "07:00 (giờ VN)"
+      ],
+      "chu_de_chinh": [
+        "chưa phân loại được"
+      ],
+      "nguon_du_lieu": [
+        "facebook-cli: khong_doc_duoc",
+        "nhập tay từ nguồn công khai (Tìm kiếm bài đăng công khai trên Facebook ngày 12/11/2026 (social search) + bài đăng kỷ niệm cán mốc 2 triệu người theo dõi ngày 07/11/2026; số 2,3 triệu là số hiển thị trên hồ sơ trang tại thời điểm tìm kiếm.)"
+      ],
+      "trang_thai": "co_du_lieu",
+      "ghi_chu": "Facebook chặn (403 Profile Not Accessible): trang này chỉ đọc được với người xem là bạn bè hoặc người quản lý trang."
+    },
+    {
+      "ten": "VnExpress.net",
+      "url": "https://www.facebook.com/congdongvnexpress",
+      "handle": "congdongvnexpress",
+      "nguoi_theo_doi": 4900000,
+      "so_bai_mau": 1,
+      "luot_thich_tb": 4800.0,
+      "binh_luan_tb": 94.0,
+      "ty_le_tuong_tac_tb": 0.098,
+      "bai_tot_nhat": {
+        "url": "https://www.facebook.com/congdongvnexpress/posts/pfbid0vv7jJ8WEmUWa66FaTNeEWjHgcPgaqSLctMMV45nvBy5M4ELSKjCKcP99J3cLHzFel",
+        "loai": "image",
+        "thoi_gian": "2026-11-10T03:32:18Z",
+        "luot_thich": 4800,
+        "binh_luan": 94,
+        "noi_dung": "VnExpress đăng ảnh tin tức, tương tác cao nhất trong mẫu"
+      },
+      "gio_dang_pho_bien": [
+        "10:00 (giờ VN)"
+      ],
+      "chu_de_chinh": [
+        "chưa phân loại được"
+      ],
+      "nguon_du_lieu": [
+        "facebook-cli: khong_doc_duoc",
+        "nhập tay từ nguồn công khai (Tìm kiếm bài đăng công khai trên Facebook ngày 12/11/2026 (social search); số người theo dõi 4,9 triệu là số hiển thị trên hồ sơ trang tại thời điểm tìm kiếm.)"
+      ],
+      "trang_thai": "co_du_lieu",
+      "ghi_chu": "Facebook chặn (403 Profile Not Accessible): trang này chỉ đọc được với người xem là bạn bè hoặc người quản lý trang."
+    }
+  ]
+}
